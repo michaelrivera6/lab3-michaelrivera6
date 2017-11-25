@@ -10,6 +10,9 @@ public class Lab3Exercises {
 		myFrame.setSize(200, 200);
 		myFrame.setVisible(true);
 		
+		MyPanelClass myPanel = new MyPanelClass();
+         myFrame.getContentPane().add(myPanel);
+         
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		int width = (int) screenSize.getWidth(); 
 		int height = (int) screenSize.getHeight();
