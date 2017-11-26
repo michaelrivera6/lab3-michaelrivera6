@@ -7,7 +7,7 @@ public class Lab3Exercises {
 	public static void main(String[] args) {
 		JFrame myFrame = new JFrame("Michael");
 		myFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);	
-		myFrame.setSize(200, 200);
+		myFrame.setSize(400, 240);
 		myFrame.setVisible(true);
 		
 		MyPanelClass myPanel = new MyPanelClass();
@@ -16,6 +16,6 @@ public class Lab3Exercises {
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		int width = (int) screenSize.getWidth(); 
 		int height = (int) screenSize.getHeight();
-		myFrame.setLocation((width/2) -100, (height/2) -100); 
+		myFrame.setLocation((width/2) -200, (height/2) -150); 
 	}
 }
